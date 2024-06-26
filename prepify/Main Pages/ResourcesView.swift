@@ -95,7 +95,8 @@ struct ResourcesView: View {
             }
                
             
-            //Bottom Navigation
+            // Bottom Navigation
+            
             NavigationStack {
                 VStack {
                     Spacer()
