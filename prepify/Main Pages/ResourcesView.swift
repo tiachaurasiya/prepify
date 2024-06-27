@@ -33,7 +33,7 @@ struct ResourcesView: View {
         // Navigation
         
             HStack {
-                NavigationLink(destination: ResourcesView()) {
+                NavigationLink(destination: SAT()) {
                     Text("SAT")
                         .font(.title2)
                         .fontWeight(.bold)
