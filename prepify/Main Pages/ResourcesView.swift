@@ -48,7 +48,7 @@ struct ResourcesView: View {
                 .tint(Color("#003f94ff"))
                 .padding()
                 
-                NavigationLink(destination: PomodoroView()) {
+                NavigationLink(destination: ACT()) {
                     Text("ACT")
                         .font(.title2)
                         .fontWeight(.bold)

@@ -1,5 +1,5 @@
 //
-//  SAT.swift
+//  ACT.swift
 //  prepify
 //
 //  Created by Scholar on 6/26/24.
@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct SAT: View {
+struct ACT: View {
     var body: some View {
         
         NavigationStack{
             VStack{
-                Text("SAT Resources")
+                Text("ACT Resources")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color("#003f94ff"))
-                Text("Here are free resources for the SAT. Good luck scholar!")
+                Text("Here are free resources for the ACT. Good luck scholar!")
                     .font(.title2)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
@@ -26,14 +26,14 @@ struct SAT: View {
 
             
             VStack{
-                Link("Khan Academy", destination: URL(string: "https://www.khanacademy.org/digital-sat ")!)
+                Link("ACT.org", destination: URL(string: "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/free-act-test-prep.html ")!)
                     .font(.title2)
                     .fontWeight(.bold)
                     .padding(.horizontal, 70)
                     .frame(height: 45)
                     .foregroundColor(Color.white)
                     .background(Color("#003f94ff"))
-                Text("Interactive prep including videos, practice questions, lessons, and full practice tests.")
+                Text("Full ACT practice tests.")
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 20.0)
                 
@@ -48,28 +48,31 @@ struct SAT: View {
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 20.0)
                 
-                Link("4Tests", destination: URL(string: "https://www.4tests.com/sat/")!)
+                Link("4Tests", destination: URL(string: "https://www.4tests.com/act-practice-test")!)
                     .font(.title2)
                     .fontWeight(.bold)
                     .padding(.horizontal, 70)
                     .frame(height: 45)
                     .foregroundColor(Color.white)
                     .background(Color("#003f94ff"))
-                Text("Take full SAT practice tests.")
+                Text("Take full ACT practice tests.")
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 20.0)
                 
-                Link("Hayden Rhodea", destination: URL(string: "https://www.youtube.com/@haydenrhodea761/")!)
+                Link("Organic Chemistry Tutor", destination: URL(string: "https://www.youtube.com/@TheOrganicChemistryTutor/search?query=act")!)
                     .font(.title2)
                     .fontWeight(.bold)
                     .padding(.horizontal, 70)
                     .frame(height: 45)
                     .foregroundColor(Color.white)
                     .background(Color("#003f94ff"))
-                Text("SAT practice test walkthroughs.")
+                Text("ACT math review videos.")
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 20.0)
-
+                
+                
+                
+                
             }
         }
         
