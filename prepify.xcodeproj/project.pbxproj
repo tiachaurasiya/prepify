@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8035833F2C2DA7C80059867E /* PomodoroWorkTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8035833E2C2DA7C70059867E /* PomodoroWorkTimerView.swift */; };
+		803583412C2DAD520059867E /* PomodoroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803583402C2DAD520059867E /* PomodoroViewModel.swift */; };
 		805693502C29F5C60045EF5E /* prepifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8056934F2C29F5C60045EF5E /* prepifyApp.swift */; };
 		805693522C29F5C60045EF5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805693512C29F5C60045EF5E /* ContentView.swift */; };
 		805693542C29F5C90045EF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805693532C29F5C90045EF5E /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8035833E2C2DA7C70059867E /* PomodoroWorkTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroWorkTimerView.swift; sourceTree = "<group>"; };
+		803583402C2DAD520059867E /* PomodoroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroViewModel.swift; sourceTree = "<group>"; };
 		8056934C2C29F5C60045EF5E /* prepify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prepify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8056934F2C29F5C60045EF5E /* prepifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prepifyApp.swift; sourceTree = "<group>"; };
 		805693512C29F5C60045EF5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,8 +80,10 @@
 			children = (
 				BDDD634E2C2CF06900744A49 /* Info.plist */,
 				E3F9A2CD2C2BA2AF00D1A123 /* ResourcesView.swift */,
+				8035833E2C2DA7C70059867E /* PomodoroWorkTimerView.swift */,
 				8056934F2C29F5C60045EF5E /* prepifyApp.swift */,
 				E3F9A2D32C2BAA8000D1A123 /* ToDoView.swift */,
+				803583402C2DAD520059867E /* PomodoroViewModel.swift */,
 				80931B662C2D077E00D6979F /* ToDoItem.swift */,
 				80931B682C2D079600D6979F /* NewToDoView.swift */,
 				805693512C29F5C60045EF5E /* ContentView.swift */,
@@ -185,11 +191,13 @@
 				80931B5B2C2C6EDA00D6979F /* bottomnavigation.swift in Sources */,
 				BDF3722D2C2D195F0087F796 /* APView.swift in Sources */,
 				E3F9A2D02C2BA9E700D1A123 /* PomodoroView.swift in Sources */,
+				803583412C2DAD520059867E /* PomodoroViewModel.swift in Sources */,
 				80931B672C2D077E00D6979F /* ToDoItem.swift in Sources */,
 				E3F9A2CE2C2BA2AF00D1A123 /* ResourcesView.swift in Sources */,
 				BDC1D7EF2C2A6CC8004B2434 /* Resources.swift in Sources */,
 				BDDD63522C2CF20100744A49 /* SAT.swift in Sources */,
 				805693522C29F5C60045EF5E /* ContentView.swift in Sources */,
+				8035833F2C2DA7C80059867E /* PomodoroWorkTimerView.swift in Sources */,
 				E3F9A2D42C2BAA8000D1A123 /* ToDoView.swift in Sources */,
 				BDDD63542C2D054E00744A49 /* ACT.swift in Sources */,
 				805693502C29F5C60045EF5E /* prepifyApp.swift in Sources */,

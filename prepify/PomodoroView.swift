@@ -38,7 +38,7 @@ struct PomodoroView: View {
         // Navigation
         
             VStack {
-                NavigationLink(destination: ResourcesView()) {
+                NavigationLink(destination: PomodoroWorkTimerView()) {
                     Text("Pomodoro")
                         .font(.title2)
                         .fontWeight(.bold)
