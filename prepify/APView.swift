@@ -29,7 +29,7 @@ struct APView: View {
         
 
             
-                NavigationLink(destination: ResourcesView()) {
+                NavigationLink(destination: APCapstoneView()) {
                     Text("AP Capstone Diploma")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -42,7 +42,7 @@ struct APView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(Color("#003f94ff"))
                 
-                NavigationLink(destination: ResourcesView()) {
+                NavigationLink(destination: APEnglishView()) {
                     Text("AP English")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -55,7 +55,7 @@ struct APView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(Color("#003f94ff"))
                 
-                NavigationLink(destination: ResourcesView()) {
+                NavigationLink(destination: APHistoryView()) {
                     Text("AP History + Social Science")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -68,7 +68,7 @@ struct APView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(Color("#003f94ff"))
                 
-                NavigationLink(destination: ResourcesView()) {
+                NavigationLink(destination: APMathView()) {
                     Text("AP Math + Computer Science")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -81,7 +81,7 @@ struct APView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(Color("#003f94ff"))
                 
-                NavigationLink(destination: ResourcesView()) {
+                NavigationLink(destination: APScienceView()) {
                     Text("AP Sciences")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -94,7 +94,7 @@ struct APView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(Color("#003f94ff"))
                 
-                NavigationLink(destination: ResourcesView()) {
+                NavigationLink(destination: APWorldLangView()) {
                     Text("AP World Language + Culture")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -107,7 +107,7 @@ struct APView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(Color("#003f94ff"))
                 
-                NavigationLink(destination: ResourcesView()) {
+                NavigationLink(destination: APResourcesView()) {
                     Text("Additional Resources")
                         .font(.title2)
                         .fontWeight(.bold)
