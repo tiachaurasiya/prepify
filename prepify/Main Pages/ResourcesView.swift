@@ -64,7 +64,7 @@ struct ResourcesView: View {
             }
         
             HStack {
-                NavigationLink(destination: ResourcesView()) {
+                NavigationLink(destination: APView()) {
                     Text("APs")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -79,7 +79,7 @@ struct ResourcesView: View {
                 .tint(Color("#003f94ff"))
                 .padding()
                 
-                NavigationLink(destination: PomodoroView()) {
+                NavigationLink(destination: IBView()) {
                     Text("IBs")
                         .font(.title2)
                         .fontWeight(.bold)
