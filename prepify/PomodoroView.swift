@@ -166,11 +166,6 @@ struct PomodoroView: View {
             
             
         }
-        
-       
-        
-        
-        
 
 #Preview {
     PomodoroView()
