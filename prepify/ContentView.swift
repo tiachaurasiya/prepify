@@ -21,6 +21,10 @@ struct ContentView: View {
         NavigationStack {
 
             VStack {
+                Image("prepifyLogo")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 100)
                 Text("Prepify")
                     .font(.largeTitle)
                     .fontWeight(.bold)
@@ -70,7 +74,7 @@ struct ContentView: View {
                 .padding()
         
             NavigationLink(destination: ToDoView()) {
-                    Text("To-do List")
+                    Text("To-Do List")
                     .font(.title2)
                     .fontWeight(.bold)
                     .padding(.horizontal, 70)
