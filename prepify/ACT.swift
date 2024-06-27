@@ -62,13 +62,12 @@ struct ACT: View {
                 Link("Organic Chemistry Tutor", destination: URL(string: "https://www.youtube.com/@TheOrganicChemistryTutor/search?query=act")!)
                     .font(.title2)
                     .fontWeight(.bold)
-                    .padding(.horizontal, 70)
+                    .padding(.horizontal, 40)
                     .frame(height: 45)
                     .foregroundColor(Color.white)
                     .background(Color("#003f94ff"))
                 Text("ACT math review videos.")
                     .multilineTextAlignment(.center)
-                    .padding(.bottom, 20.0)
                 
                 
                 
@@ -81,5 +80,5 @@ struct ACT: View {
 }
 
 #Preview {
-    SAT()
+    ACT()
 }
