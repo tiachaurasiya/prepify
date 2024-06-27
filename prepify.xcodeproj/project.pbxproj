@@ -28,6 +28,7 @@
 		E338C0102C2DBCAA00DF68DB /* APScienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C00F2C2DBCAA00DF68DB /* APScienceView.swift */; };
 		E338C0122C2DBCC400DF68DB /* APWorldLangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C0112C2DBCC400DF68DB /* APWorldLangView.swift */; };
 		E338C0142C2DBCD300DF68DB /* APResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C0132C2DBCD300DF68DB /* APResourcesView.swift */; };
+		E338C0182C2DC3EF00DF68DB /* APSeminarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C0172C2DC3EF00DF68DB /* APSeminarView.swift */; };
 		E3F9A2CE2C2BA2AF00D1A123 /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A2CD2C2BA2AF00D1A123 /* ResourcesView.swift */; };
 		E3F9A2D02C2BA9E700D1A123 /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A2CF2C2BA9E700D1A123 /* PomodoroView.swift */; };
 		E3F9A2D42C2BAA8000D1A123 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A2D32C2BAA8000D1A123 /* ToDoView.swift */; };
@@ -57,6 +58,7 @@
 		E338C00F2C2DBCAA00DF68DB /* APScienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APScienceView.swift; sourceTree = "<group>"; };
 		E338C0112C2DBCC400DF68DB /* APWorldLangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APWorldLangView.swift; sourceTree = "<group>"; };
 		E338C0132C2DBCD300DF68DB /* APResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APResourcesView.swift; sourceTree = "<group>"; };
+		E338C0172C2DC3EF00DF68DB /* APSeminarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APSeminarView.swift; sourceTree = "<group>"; };
 		E3F9A2CD2C2BA2AF00D1A123 /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResourcesView.swift; path = "Main Pages/ResourcesView.swift"; sourceTree = "<group>"; };
 		E3F9A2CF2C2BA9E700D1A123 /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
 		E3F9A2D32C2BAA8000D1A123 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
@@ -93,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				BDDD634E2C2CF06900744A49 /* Info.plist */,
-				E3F9A2CD2C2BA2AF00D1A123 /* ResourcesView.swift */,
 				8035833E2C2DA7C70059867E /* PomodoroWorkTimerView.swift */,
 				8056934F2C29F5C60045EF5E /* prepifyApp.swift */,
 				E3F9A2CD2C2BA2AF00D1A123 /* ResourcesView.swift */,
@@ -108,6 +109,7 @@
 				BDDD63512C2CF20100744A49 /* SAT.swift */,
 				BDF3722C2C2D195F0087F796 /* APView.swift */,
 				E338C0072C2DBC5000DF68DB /* APCapstoneView.swift */,
+				E338C0172C2DC3EF00DF68DB /* APSeminarView.swift */,
 				E338C0092C2DBC7400DF68DB /* APEnglishView.swift */,
 				E338C00B2C2DBC8700DF68DB /* APHistoryView.swift */,
 				E338C00D2C2DBC9900DF68DB /* APMathView.swift */,
@@ -227,6 +229,7 @@
 				E3F9A2D42C2BAA8000D1A123 /* ToDoView.swift in Sources */,
 				BDDD63542C2D054E00744A49 /* ACT.swift in Sources */,
 				E338C00C2C2DBC8700DF68DB /* APHistoryView.swift in Sources */,
+				E338C0182C2DC3EF00DF68DB /* APSeminarView.swift in Sources */,
 				E338C00A2C2DBC7400DF68DB /* APEnglishView.swift in Sources */,
 				E338C0082C2DBC5000DF68DB /* APCapstoneView.swift in Sources */,
 				805693502C29F5C60045EF5E /* prepifyApp.swift in Sources */,

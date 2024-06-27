@@ -4,31 +4,22 @@
 //
 //  Created by Emma Lopez on 6/27/24.
 //
-
 import SwiftUI
-
-struct APCapstoneView: View {
+struct APSeminarView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("AP Capstone")
+                Text("AP Seminar")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color("#003f94ff"))
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 45)
-                Text("Diploma")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color("#003f94ff"))
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 45)
-
-                Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLoGgviqq4845Tiot5ihu6Axzh81Po2mOo")!) {
-                    Text("Research")
+                Link(destination: URL(string: "https://docs.google.com/document/d/1EDJ-fAzLmxKreeMn4hFfrdzSeLSfw4Sye1eSD0N3jWw/edit?pli=1#heading=h.2iozmvk7y6d7")!) {
+                    Text("EOC Study Guide")
                         .font(.title2)
                         .fontWeight(.bold)
-                        .padding(.horizontal, 80)
+                        .padding(.horizontal, 40)
                         .frame(height: 45)
                         .foregroundColor(Color.white)
                         .background(Color("#003f94ff"))
@@ -37,11 +28,37 @@ struct APCapstoneView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(Color("#003f94ff"))
                 
-                NavigationLink(destination: APSeminarView()) {
-                    Text("Seminar")
+                Link(destination: URL(string: "https://apresources.notion.site/AP-Seminar-378d59f8ee2e45fe8624ad45d92432b1")!) {
+                    Text("AP Seminar Guide")
                         .font(.title2)
                         .fontWeight(.bold)
-                        .padding(.horizontal, 85)
+                        .padding(.horizontal, 37.5)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
+                Link(destination: URL(string: "https://knowt.com/exams/AP/AP-Seminar")!) {
+                    Text("Knowt")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 97.5)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
+                Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLoGgviqq4847dwdY25XcCHLlN0uo0ccW6")!) {
+                    Text("CollegeBoard Videos")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 20)
                         .frame(height: 45)
                         .foregroundColor(Color.white)
                         .background(Color("#003f94ff"))
@@ -58,7 +75,6 @@ struct APCapstoneView: View {
             NavigationStack {
                 VStack {
                     Spacer()
-
                     RoundedRectangle(cornerRadius: 20)
                         .fill(Color("#003f94ff"))
                         .frame(height: 90)
@@ -118,7 +134,6 @@ struct APCapstoneView: View {
                                         }
                                     }
                                 }
-
     struct bottomnavigation: View {
         var body: some View {
             Text("Home View")
@@ -128,7 +143,6 @@ struct APCapstoneView: View {
     }
 }
         
-
 #Preview {
-    APCapstoneView()
+    APSeminarView()
 }
