@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		802E0DE82C2DE8C500255B56 /* CalculusABView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802E0DE72C2DE8C500255B56 /* CalculusABView.swift */; };
+		802E0DEA2C2DE8F000255B56 /* CalculusBCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802E0DE92C2DE8F000255B56 /* CalculusBCView.swift */; };
+		802E0DEC2C2DE94900255B56 /* CompSciAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802E0DEB2C2DE94900255B56 /* CompSciAView.swift */; };
+		802E0DEE2C2DE95500255B56 /* CompSciPrinciplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802E0DED2C2DE95500255B56 /* CompSciPrinciplesView.swift */; };
+		802E0DF22C2DE97500255B56 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802E0DF12C2DE97500255B56 /* StatisticsView.swift */; };
+		802E0DF42C2DE99900255B56 /* PrecalculusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802E0DF32C2DE99900255B56 /* PrecalculusView.swift */; };
 		8035833F2C2DA7C80059867E /* PomodoroWorkTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8035833E2C2DA7C70059867E /* PomodoroWorkTimerView.swift */; };
 		803583412C2DAD520059867E /* PomodoroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803583402C2DAD520059867E /* PomodoroViewModel.swift */; };
 		805693502C29F5C60045EF5E /* prepifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8056934F2C29F5C60045EF5E /* prepifyApp.swift */; };
@@ -37,6 +43,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		802E0DE72C2DE8C500255B56 /* CalculusABView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculusABView.swift; sourceTree = "<group>"; };
+		802E0DE92C2DE8F000255B56 /* CalculusBCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculusBCView.swift; sourceTree = "<group>"; };
+		802E0DEB2C2DE94900255B56 /* CompSciAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompSciAView.swift; sourceTree = "<group>"; };
+		802E0DED2C2DE95500255B56 /* CompSciPrinciplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompSciPrinciplesView.swift; sourceTree = "<group>"; };
+		802E0DF12C2DE97500255B56 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		802E0DF32C2DE99900255B56 /* PrecalculusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrecalculusView.swift; sourceTree = "<group>"; };
 		8035833E2C2DA7C70059867E /* PomodoroWorkTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroWorkTimerView.swift; sourceTree = "<group>"; };
 		803583402C2DAD520059867E /* PomodoroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroViewModel.swift; sourceTree = "<group>"; };
 		8056934C2C29F5C60045EF5E /* prepify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prepify.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +112,7 @@
 			children = (
 				BDDD634E2C2CF06900744A49 /* Info.plist */,
 				8035833E2C2DA7C70059867E /* PomodoroWorkTimerView.swift */,
+				802E0DF12C2DE97500255B56 /* StatisticsView.swift */,
 				8056934F2C29F5C60045EF5E /* prepifyApp.swift */,
 				E3F9A2CD2C2BA2AF00D1A123 /* ResourcesView.swift */,
 				E3F9A2D32C2BAA8000D1A123 /* ToDoView.swift */,
@@ -119,6 +132,11 @@
 				E338C0092C2DBC7400DF68DB /* APEnglishView.swift */,
 				E338C00B2C2DBC8700DF68DB /* APHistoryView.swift */,
 				E338C00D2C2DBC9900DF68DB /* APMathView.swift */,
+				802E0DF32C2DE99900255B56 /* PrecalculusView.swift */,
+				802E0DEB2C2DE94900255B56 /* CompSciAView.swift */,
+				802E0DED2C2DE95500255B56 /* CompSciPrinciplesView.swift */,
+				802E0DE72C2DE8C500255B56 /* CalculusABView.swift */,
+				802E0DE92C2DE8F000255B56 /* CalculusBCView.swift */,
 				E338C00F2C2DBCAA00DF68DB /* APScienceView.swift */,
 				E338C0112C2DBCC400DF68DB /* APWorldLangView.swift */,
 				E338C0132C2DBCD300DF68DB /* APResourcesView.swift */,
@@ -219,11 +237,16 @@
 				E338C0102C2DBCAA00DF68DB /* APScienceView.swift in Sources */,
 				80931B692C2D079600D6979F /* NewToDoView.swift in Sources */,
 				BDF3722B2C2D111D0087F796 /* IBView.swift in Sources */,
+				802E0DEC2C2DE94900255B56 /* CompSciAView.swift in Sources */,
 				80931B5B2C2C6EDA00D6979F /* bottomnavigation.swift in Sources */,
 				BDF3722D2C2D195F0087F796 /* APView.swift in Sources */,
 				E3F9A2D02C2BA9E700D1A123 /* PomodoroView.swift in Sources */,
+				802E0DF22C2DE97500255B56 /* StatisticsView.swift in Sources */,
 				803583412C2DAD520059867E /* PomodoroViewModel.swift in Sources */,
+				802E0DF42C2DE99900255B56 /* PrecalculusView.swift in Sources */,
 				80931B672C2D077E00D6979F /* ToDoItem.swift in Sources */,
+				802E0DEE2C2DE95500255B56 /* CompSciPrinciplesView.swift in Sources */,
+				802E0DEA2C2DE8F000255B56 /* CalculusBCView.swift in Sources */,
 				E3F9A2CE2C2BA2AF00D1A123 /* ResourcesView.swift in Sources */,
 				E338C00E2C2DBC9900DF68DB /* APMathView.swift in Sources */,
 				BDC1D7EF2C2A6CC8004B2434 /* Resources.swift in Sources */,
@@ -239,6 +262,7 @@
 				E338C00C2C2DBC8700DF68DB /* APHistoryView.swift in Sources */,
 				E338C0182C2DC3EF00DF68DB /* APSeminarView.swift in Sources */,
 				E338C00A2C2DBC7400DF68DB /* APEnglishView.swift in Sources */,
+				802E0DE82C2DE8C500255B56 /* CalculusABView.swift in Sources */,
 				E338C0082C2DBC5000DF68DB /* APCapstoneView.swift in Sources */,
 				805693502C29F5C60045EF5E /* prepifyApp.swift in Sources */,
 			);

@@ -1,121 +1,102 @@
 //
-//  APMathView.swift
+//  CalculusABView.swift
 //  prepify
 //
-//  Created by Emma Lopez on 6/27/24.
+//  Created by tia on 6/27/24.
 //
 import SwiftUI
-struct APMathView: View {
+struct CalculusABView: View {
     var body: some View {
         NavigationStack {
             
             VStack {
-                Text("AP Math")
+                Text("Calculus AB Resources")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color("#003f94ff"))
-                    .multilineTextAlignment(.center)
-                Text("&")
-                    .font(.largeTitle)
+                
+        
+            
+                Link("Knowt", destination: URL(string: "https://knowt.com/exams/AP/AP-Calculus-AB")!)
+                    .font(.title2)
                     .fontWeight(.bold)
-                    .foregroundColor(Color("#003f94ff"))
+                    .padding(.horizontal, 70)
+                    .frame(width: 310.0, height: 45)
+                    .foregroundColor(Color.white)
+                    .background(Color("#003f94ff"))
+                Text("Free quizlet alternative containing study guides, flashcards, and quizzes.")
                     .multilineTextAlignment(.center)
-                Text("Computer Science")
-                    .font(.largeTitle)
+                    .padding(.bottom, 20.0)
+                    .padding(.horizontal, 35)
+                
+                Link("Elaine Tron", destination: URL(string: "https://www.elainetron.com/apcalc/apcalc.pdf ")!)
+                    .font(.title2)
                     .fontWeight(.bold)
-                    .foregroundColor(Color("#003f94ff"))
+                    .padding(.horizontal, 70)
+                    .frame(width: 310.0, height: 45)
+                    .foregroundColor(Color.white)
+                    .background(Color("#003f94ff"))
+                Text("Offers free studyguides for Calculus")
                     .multilineTextAlignment(.center)
+                    .padding(.bottom, 20.0)
+                    .padding(.horizontal, 35)
                 
-                //calculus ab
-                NavigationLink(destination: CalculusABView()) {
-                    Text("Calculus AB")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding(.horizontal, 88.5)
-                        .frame(height: 45)
-                        .foregroundColor(Color.white)
-                        .background(Color("#003f94ff"))
-                }
+                Link("Khan Academy", destination: URL(string: "https://www.khanacademy.org/math/ap-calculus-ab")!)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .padding(.horizontal, 70)
+                    .frame(width: 310.0, height: 45)
+                    .foregroundColor(Color.white)
+                    .background(Color("#003f94ff"))
+                Text("Review videos of Calculus Math problems and concepts + practice problems")
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom, 20.0)
+                    .padding(.horizontal, 35)
                 
-                .buttonStyle(.borderedProminent)
-                .tint(Color("#003f94ff"))
-                //calculus bc
-                NavigationLink(destination: CalculusBCView()) {
-                    Text("Calculus BC")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding(.horizontal, 88.5)
-                        .frame(height: 45)
-                        .foregroundColor(Color.white)
-                        .background(Color("#003f94ff"))
-                }
+                Link("Flipped Math", destination: URL(string: "https://calculus.flippedmath.com/ ")!)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .padding(.horizontal, 70)
+                    .frame(width: 310.0, height: 45)
+                    .foregroundColor(Color.white)
+                    .background(Color("#003f94ff"))
+                Text("Educational videos and notes covering key topics and exam preparation strategies for Calculus.")
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom, 20.0)
+                    .padding(.horizontal, 35)
                 
-                .buttonStyle(.borderedProminent)
-                .tint(Color("#003f94ff"))
+                Link("Fiveable", destination: URL(string:
+ "https://library.fiveable.me/ap-calc")!)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .padding(.horizontal, 70)
+                    .frame(width: 310.0, height: 45)
+                    .foregroundColor(Color.white)
+                    .background(Color("#003f94ff"))
+                Text("Study guides and practice quizzes for all material covering Calculus.")
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom, 20.0)
+                    .padding(.horizontal, 35)
                 
-                //comp sci a
-                NavigationLink(destination: CompSciAView()) {
-                    Text("Comp Science A")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding(.horizontal, 68)
-                        .frame(height: 45)
-                        .foregroundColor(Color.white)
-                        .background(Color("#003f94ff"))
-                }
-                
-                .buttonStyle(.borderedProminent)
-                .tint(Color("#003f94ff"))
-                
-                //comp sci principles
-                NavigationLink(destination: CompSciPrinciplesView()) {
-                    Text("Comp Science Prin")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding(.horizontal, 56)
-                        .frame(height: 45)
-                        .foregroundColor(Color.white)
-                        .background(Color("#003f94ff"))
-                }
-                
-                .buttonStyle(.borderedProminent)
-                .tint(Color("#003f94ff"))
-                
-                //precalculus
-                NavigationLink(destination: PrecalculusView()) {
-                    Text("Precalculus")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding(.horizontal, 93)
-                        .frame(height: 45)
-                        .foregroundColor(Color.white)
-                        .background(Color("#003f94ff"))
-                }
-                
-                .buttonStyle(.borderedProminent)
-                .tint(Color("#003f94ff"))
-                
-                //statistics
-                NavigationLink(destination: StatisticsView()) {
-                    Text("Statistics")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding(.horizontal, 105)
-                        .frame(height: 45)
-                        .foregroundColor(Color.white)
-                        .background(Color("#003f94ff"))
-                }
-                
-                .buttonStyle(.borderedProminent)
-                .tint(Color("#003f94ff"))
+                Link("Organic Chemistry Tutor", destination: URL(string:
+ "https://www.youtube.com/watch?v=GiCojsAWRj0&list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv")!)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .padding(.horizontal, 70)
+                    .frame(width: 310.0, height: 45)
+                    .foregroundColor(Color.white)
+                    .background(Color("#003f94ff"))
+                Text("Videos covering all types of material in Calculus.")
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom, 20.0)
+                    .padding(.horizontal, 35)
                 
             }
+            
             .padding(.top, 30)
-                
-                
-                
-                
-            Spacer()
+            
+            // Bottom Navigation
+            
             NavigationStack {
                 VStack {
                     Spacer()
@@ -189,7 +170,6 @@ struct APMathView: View {
             
             
         }
-        
 #Preview {
-    APMathView()
+    CalculusABView()
 }
