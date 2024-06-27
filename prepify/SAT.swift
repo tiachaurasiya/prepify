@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SAT: View {
     var body: some View {
+        
         NavigationStack{
             VStack{
                 Text("SAT Resources")
@@ -20,7 +21,11 @@ struct SAT: View {
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 55)
-                                
+            }
+            .padding(.bottom, 25)
+
+            
+            VStack{
                 Link("Khan Academy", destination: URL(string: "https://www.khanacademy.org/digital-sat ")!)
                     .font(.title2)
                     .fontWeight(.bold)
@@ -30,7 +35,43 @@ struct SAT: View {
                     .background(Color("#003f94ff"))
                 Text("Interactive prep including videos, practice questions, lessons, and full practice tests.")
                     .multilineTextAlignment(.center)
-                    .padding(.top, 10)
+                    .padding(.bottom, 20.0)
+                
+                Link("Schoolhouse", destination: URL(string: "https://schoolhouse.world/")!)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .padding(.horizontal, 70)
+                    .frame(height: 45)
+                    .foregroundColor(Color.white)
+                    .background(Color("#003f94ff"))
+                Text("Free online tutoring in either groups or one-on-one sessions.")
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom, 20.0)
+                
+                Link("4Tests", destination: URL(string: "https://www.4tests.com/sat/")!)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .padding(.horizontal, 70)
+                    .frame(height: 45)
+                    .foregroundColor(Color.white)
+                    .background(Color("#003f94ff"))
+                Text("Take full SAT practice tests.")
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom, 20.0)
+                
+                Link("Hayden Rhodea", destination: URL(string: "https://www.youtube.com/@haydenrhodea761/")!)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .padding(.horizontal, 70)
+                    .frame(height: 45)
+                    .foregroundColor(Color.white)
+                    .background(Color("#003f94ff"))
+                Text("SAT practice test walkthroughs.")
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom, 20.0)
+                
+                
+                
                 
             }
         }
