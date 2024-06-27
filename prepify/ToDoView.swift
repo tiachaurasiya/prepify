@@ -4,99 +4,58 @@
 //
 //  Created by Emma Lopez on 6/25/24.
 //
-
 import SwiftUI
-
+import SwiftData
 struct ToDoView: View {
+    @State private var showNewTask = false
+    @Query var toDos: [ToDoItem]
+    @Environment(\.modelContext) var modelContext
     var body: some View {
         VStack {
-            Text("!!!!!")
-            Text("!!!!!")
-            Text("!!!!!")
-            Text("!!!!!")
-            Text("!!!!!")
-            Text("!!!!!")
-        
-            // Bottom Navigation
+           
+            HStack{
+                Text("To-Do")
+                          .font(.largeTitle)
+                            .fontWeight(.bold)
+                              .foregroundColor(Color("#003f94ff"))
+                        Spacer()
+                Button {
+                    withAnimation {
+                        self.showNewTask = true
+                    }
+                    self.showNewTask = true
+                } label: {
+                    Text("+")
+                        .foregroundColor(Color("#003f94ff"))
+                }
             
-            NavigationStack {
-                VStack {
-                    Spacer()
-
-                    RoundedRectangle(cornerRadius: 20)
-                        .fill(Color("#003f94ff"))
-                        .frame(height: 90)
-                        .padding(.horizontal)
-                        .shadow(radius: 5)
-                        .overlay(
-                            HStack(spacing: 20) {
-                                // First back icon
-                                NavigationLink(destination: ContentView()) {
-                                    Image("icons8-home-50")
-                                        .resizable()
-                                        .aspectRatio(contentMode: .fit)
-                                        .frame(width: 40, height: 40)
-                                      
-                                }
-                                Spacer()
-                                
-                                // Second book icon
-                                NavigationLink(destination: ResourcesView()) {
-                                    Image( "icons8-book-50")
-                                                                   .resizable()
-                                                                   .aspectRatio(contentMode: .fit)
-                                                                   .frame(width: 40, height: 40)
-                                                        
-                                                                   
-                                }
-                                
-                             Spacer()
-                                // Third Clock icon
-                                NavigationLink(destination: PomodoroView()) {
-                                    Image( "icons8-clock-50")
-                                                                   .resizable()
-                                                                   .aspectRatio(contentMode: .fit)
-                                                                   .frame(width: 40, height: 40)
-                                                        
-                                                            
-                                                                   
-                                }
-                                
-                                Spacer()
-                                // Fourth Checkmark icon
-                                NavigationLink(destination: ToDoView()) {
-                                    Image( "icons8-check-mark-50")
-                                                                   .resizable()
-                                                                   .aspectRatio(contentMode: .fit)
-                                                                   .frame(width: 40, height: 40)
-                                                        
-                                                            
-                                                                   
-                                }
-                                // End icons
-                                                        }
-                                                        .padding(.horizontal, 70)
-                                                    )
-                                            }
-                                            
-                                        }
-                                    }
-                                }
-
-    struct ContentUsView: View {
-        var body: some View {
-            Text("Home View")
-                .font(.largeTitle)
-                .padding()
+            }
+            .padding()
+            Spacer()
+            if showNewTask {
+                NewToDoView(showNewTask: $showNewTask, toDoItem: ToDoItem(title: "", isImportant: false))
+            }
+            List {
+                    ForEach (toDos) { toDoItem in
+                        if toDoItem.isImportant == true {
+                            Text("‼️" + toDoItem.title)
+                        } else {
+                            Text(toDoItem.title)
+                        }
+                        
+                        }
+                    .onDelete(perform: deleteToDo)
+            }
+        }
+        
+    }
+    func deleteToDo(at offsets: IndexSet) {
+        for offset in offsets {
+            let toDoItem = toDos[offset]
+            modelContext.delete(toDoItem)
         }
     }
-            
-            
-            
-        }
-        
-
+}
 #Preview {
     ToDoView()
 }
-
