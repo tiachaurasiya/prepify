@@ -21,6 +21,8 @@
 		BDDD63542C2D054E00744A49 /* ACT.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD63532C2D054E00744A49 /* ACT.swift */; };
 		BDF3722B2C2D111D0087F796 /* IBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3722A2C2D111D0087F796 /* IBView.swift */; };
 		BDF3722D2C2D195F0087F796 /* APView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3722C2C2D195F0087F796 /* APView.swift */; };
+		BDF372412C2DD7240087F796 /* ShortBreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372402C2DD7240087F796 /* ShortBreakView.swift */; };
+		BDF372432C2DDDC70087F796 /* LongBreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372422C2DDDC70087F796 /* LongBreakView.swift */; };
 		E338C0082C2DBC5000DF68DB /* APCapstoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C0072C2DBC5000DF68DB /* APCapstoneView.swift */; };
 		E338C00A2C2DBC7400DF68DB /* APEnglishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C0092C2DBC7400DF68DB /* APEnglishView.swift */; };
 		E338C00C2C2DBC8700DF68DB /* APHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C00B2C2DBC8700DF68DB /* APHistoryView.swift */; };
@@ -51,6 +53,8 @@
 		BDDD63532C2D054E00744A49 /* ACT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACT.swift; sourceTree = "<group>"; };
 		BDF3722A2C2D111D0087F796 /* IBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBView.swift; sourceTree = "<group>"; };
 		BDF3722C2C2D195F0087F796 /* APView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APView.swift; sourceTree = "<group>"; };
+		BDF372402C2DD7240087F796 /* ShortBreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortBreakView.swift; sourceTree = "<group>"; };
+		BDF372422C2DDDC70087F796 /* LongBreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongBreakView.swift; sourceTree = "<group>"; };
 		E338C0072C2DBC5000DF68DB /* APCapstoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APCapstoneView.swift; sourceTree = "<group>"; };
 		E338C0092C2DBC7400DF68DB /* APEnglishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APEnglishView.swift; sourceTree = "<group>"; };
 		E338C00B2C2DBC8700DF68DB /* APHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APHistoryView.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				BDF3722A2C2D111D0087F796 /* IBView.swift */,
 				80931B5A2C2C6EDA00D6979F /* bottomnavigation.swift */,
 				E3F9A2CF2C2BA9E700D1A123 /* PomodoroView.swift */,
+				BDF372402C2DD7240087F796 /* ShortBreakView.swift */,
+				BDF372422C2DDDC70087F796 /* LongBreakView.swift */,
 				BDDD63512C2CF20100744A49 /* SAT.swift */,
 				BDF3722C2C2D195F0087F796 /* APView.swift */,
 				E338C0072C2DBC5000DF68DB /* APCapstoneView.swift */,
@@ -221,10 +227,12 @@
 				E3F9A2CE2C2BA2AF00D1A123 /* ResourcesView.swift in Sources */,
 				E338C00E2C2DBC9900DF68DB /* APMathView.swift in Sources */,
 				BDC1D7EF2C2A6CC8004B2434 /* Resources.swift in Sources */,
+				BDF372432C2DDDC70087F796 /* LongBreakView.swift in Sources */,
 				E338C0122C2DBCC400DF68DB /* APWorldLangView.swift in Sources */,
 				E338C0142C2DBCD300DF68DB /* APResourcesView.swift in Sources */,
 				BDDD63522C2CF20100744A49 /* SAT.swift in Sources */,
 				805693522C29F5C60045EF5E /* ContentView.swift in Sources */,
+				BDF372412C2DD7240087F796 /* ShortBreakView.swift in Sources */,
 				8035833F2C2DA7C80059867E /* PomodoroWorkTimerView.swift in Sources */,
 				E3F9A2D42C2BAA8000D1A123 /* ToDoView.swift in Sources */,
 				BDDD63542C2D054E00744A49 /* ACT.swift in Sources */,

@@ -8,9 +8,16 @@
 import Foundation
 class PomodoroViewModel: ObservableObject {
     @Published var workDuration = 25
+    @Published var shortBreakDuration = 5
+    @Published var longBreakDuration = 10
     @Published var workTimerMode: TimerMode = .initial
+    @Published var shortBreakTimerMode: TimerMode = .initial
+    @Published var longBreakTimerMode: TimerMode = .initial
     @Published var workTimeRemaining = 25 * 60
+    @Published var shortBreakTimeRemaining = 5 * 60
+    @Published var longBreakTimeRemaining = 10 * 60
     @Published var workTimer: Timer?
+    @Published var breakTimer: Timer?
 
     
     enum TimerMode {
@@ -34,20 +41,53 @@ class PomodoroViewModel: ObservableObject {
         workTimerMode = .running
     }
     
-   
+    func startShortBreakTimer() {
+        breakTimer?.invalidate()
+        breakTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
+            if self.shortBreakTimeRemaining > 0 {
+                self.shortBreakTimeRemaining -= 1
+            } else {
+                self.breakTimer?.invalidate()
+                if self.shortBreakTimerMode == .running {
+                    self.shortBreakTimerMode = .paused
+                }
+            }
+        }
+        shortBreakTimerMode = .running
+    }
+    
+    func startLongBreakTimer() {
+        breakTimer?.invalidate()
+        breakTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
+            if self.longBreakTimeRemaining > 0 {
+                self.longBreakTimeRemaining -= 1
+            } else {
+                self.breakTimer?.invalidate()
+                if self.longBreakTimerMode == .running {
+                    self.longBreakTimerMode = .paused
+                }
+            }
+        }
+        longBreakTimerMode = .running
+    }
     
     func pauseTimers() {
         workTimer?.invalidate()
+        breakTimer?.invalidate()
         workTimerMode = .paused
-       
+        shortBreakTimerMode = .paused
+        longBreakTimerMode = .paused
     }
     
     func resetTimers() {
         workTimer?.invalidate()
-      
+        breakTimer?.invalidate()
         workTimerMode = .initial
-      
+        shortBreakTimerMode = .initial
+        longBreakTimerMode = .initial
         workTimeRemaining = workDuration * 60
+        shortBreakTimeRemaining = shortBreakDuration * 60
+        longBreakTimeRemaining = longBreakDuration * 60
        
     }
     
@@ -59,7 +99,8 @@ class PomodoroViewModel: ObservableObject {
     
     func advanceOneMinuteForward() {
         let oneMinute = 60
-        workTimeRemaining += oneMinute
+        
+        
         }
        
     }

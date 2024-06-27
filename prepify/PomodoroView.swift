@@ -54,7 +54,7 @@ struct PomodoroView: View {
                 Text("25 minutes")
                     .fontWeight(.bold)
                 
-                NavigationLink(destination: PomodoroView()) {
+                NavigationLink(destination: ShortBreakView()) {
                     Text("Short Break")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -70,7 +70,7 @@ struct PomodoroView: View {
                 Text("5 minutes")
                     .fontWeight(.bold)
                 
-                NavigationLink(destination: PomodoroView()) {
+                NavigationLink(destination: LongBreakView()) {
                     Text("Long Break")
                         .font(.title2)
                         .fontWeight(.bold)
