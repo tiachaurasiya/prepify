@@ -156,7 +156,6 @@ struct ResourcesView: View {
                                                         .padding(.horizontal, 70)
                                                     )
                                             }
-                                            
                                         }
                                     }
                                 }

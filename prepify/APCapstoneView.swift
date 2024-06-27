@@ -1,93 +1,57 @@
 //
-//  ResourcesView.swift
+//  APCapstoneView.swift
 //  prepify
 //
-//  Created by Emma Lopez on 6/25/24.
+//  Created by Emma Lopez on 6/27/24.
 //
 
 import SwiftUI
 
-struct PomodoroView: View {
+struct APCapstoneView: View {
     var body: some View {
-        
-        VStack {
-            Text("")
-        }
-        
-        // Introduction
         NavigationStack {
             VStack {
-                Text("Pomodoro Timer")
+                Text("AP Capstone")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color("#003f94ff"))
-                
-                /*
-                
-                Text("A time management method divided into intervals.")
-                    .font(.title3)
-                    .fontWeight(.bold)
                     .multilineTextAlignment(.center)
-                    .padding(.horizontal, 55)
-    
-                 */
-            }
-            
-            .padding(.top, 125)
-            
-        // Navigation
-        
-            VStack {
-                NavigationLink(destination: PomodoroWorkTimerView()) {
-                    Text("Pomodoro")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding(.horizontal, 35)
-                        .frame(height: 45)
-                        .foregroundColor(Color.white)
-                        .background(Color("#003f94ff"))
-                }
-                
-                .buttonStyle(.borderedProminent)
-                .tint(Color("#003f94ff"))
-                
-                Text("25 minutes")
+                    .padding(.horizontal, 45)
+                Text("Diploma")
+                    .font(.largeTitle)
                     .fontWeight(.bold)
-                
-                NavigationLink(destination: PomodoroView()) {
-                    Text("Short Break")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding(.horizontal, 25)
-                        .frame(height: 45)
-                        .foregroundColor(Color.white)
-                        .background(Color("#003f94ff"))
-                }
-                
-                .buttonStyle(.borderedProminent)
-                .tint(Color("#003f94ff"))
-                
-                Text("5 minutes")
-                    .fontWeight(.bold)
-                
-                NavigationLink(destination: PomodoroView()) {
-                    Text("Long Break")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding(.horizontal, 25)
-                        .frame(height: 45)
-                        .foregroundColor(Color.white)
-                        .background(Color("#003f94ff"))
-                }
-                
-                .buttonStyle(.borderedProminent)
-                .tint(Color("#003f94ff"))
-                
-                Text("10 minutes")
-                    .fontWeight(.bold)
+                    .foregroundColor(Color("#003f94ff"))
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 45)
 
+                NavigationLink(destination: ResourcesView()) {
+                    Text("Research")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 80)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
+                NavigationLink(destination: ResourcesView()) {
+                    Text("Seminar")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 85)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
             }
-               
+            
+            .padding(.top, 200)
             
             // Bottom Navigation
             
@@ -162,11 +126,9 @@ struct PomodoroView: View {
                 .padding()
         }
     }
-            
-            
-            
-        }
+}
+        
 
 #Preview {
-    PomodoroView()
+    APCapstoneView()
 }
