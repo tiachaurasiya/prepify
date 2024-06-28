@@ -16,64 +16,100 @@ struct SAT: View {
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color("#003f94ff"))
-                Text("Here are free resources for the SAT. Good luck scholar!")
+                Text("Here are free resources for")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 55)
+                Text("the SAT. Good luck scholar!")
                     .font(.title2)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 55)
             }
             
-            .padding(.top, 75)
+            .padding(.top, 20)
             
             VStack {
                 
-                Link("Khan Academy", destination: URL(string: "https://www.khanacademy.org/digital-sat ")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 70)
-                    .frame(width: 310.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
+                Link(destination: URL(string: "https://www.khanacademy.org/digital-sat")!) {
+                    Text("Khan Academy")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 55)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
                 
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
                 
-                Text("Interactive prep including videos, practice questions, lessons, and full practice tests.")
+                Text("Interactive prep including videos, ")
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 45)
+                
+                Text("practice questions, lessons, and full")
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 45)
+                
+                Text("practice tests.")
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 20.0)
-                    .padding(.horizontal, 35)
+                    .padding(.horizontal, 45)
                 
-                Link("Schoolhouse", destination: URL(string: "https://schoolhouse.world/")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 70)
-                    .frame(width: 310.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
-                Text("Free online tutoring in either groups or one-on-one sessions.")
+                Link(destination: URL(string: "https://schoolhouse.world/")!) {
+                    Text("Schoolhouse")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 60)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
+                Text("Free online tutoring in either groups")
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 45)
+                Text("or one-on-one sessions.")
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 20.0)
-                    .padding(.horizontal, 35)
-
+                    .padding(.horizontal, 45)
                 
-                Link("4Tests", destination: URL(string: "https://www.4tests.com/sat/")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 70)
-                    .frame(width: 310.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
+                Link(destination: URL(string: "https://www.4tests.com/sat/")!) {
+                    Text("4Tests")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 90)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
                 Text("Take full SAT practice tests.")
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 20.0)
                     .padding(.horizontal, 35)
 
+                Link(destination: URL(string: "https://www.youtube.com/@haydenrhodea761/")!) {
+                    Text("Hayden Rhodea")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 45)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
                 
-                Link("Hayden Rhodea", destination: URL(string: "https://www.youtube.com/@haydenrhodea761/")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 70)
-                    .frame(width: 310.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
                 Text("SAT practice test walkthroughs.")
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 20.0)

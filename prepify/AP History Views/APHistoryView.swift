@@ -9,7 +9,14 @@ struct APHistoryView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("AP History")
+                Text("AP History +")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color("#003f94ff"))
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 45)
+                
+                Text("Social Science")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color("#003f94ff"))
@@ -124,7 +131,7 @@ struct APHistoryView: View {
                 
             }
             
-            .padding(.top, 50)
+            .padding(.top, 10)
             
             
             // Bottom Navigation

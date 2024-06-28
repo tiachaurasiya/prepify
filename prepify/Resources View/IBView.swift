@@ -16,77 +16,122 @@ struct IBView: View {
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color("#003f94ff"))
-                Text("Here are free resources for IB. Good luck scholar!")
+                Text("Here are free resources for")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 55)
+                
+                Text("IB. Good luck scholar!")
                     .font(.title2)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 55)
         
-
-            
-                Link("Knowt", destination: URL(string: "https://knowt.com/ ")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 70)
-                    .frame(width: 310.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
-                Text("Free quizlet alternative containing study guides, flashcards, and quizzes.")
-                    .multilineTextAlignment(.center)
-                    .padding(.bottom, 20.0)
-                    .padding(.horizontal, 35)
+                Link(destination: URL(string: "https://knowt.com/")!) {
+                    Text("Knowt")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 95)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
                 
-                Link("BioNinja", destination: URL(string: "https://ib.bioninja.com.au/ ")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 70)
-                    .frame(width: 310.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
-                Text("Offers free resources such as notes, diagrams, and quizzes for IB Biology.")
-                    .multilineTextAlignment(.center)
-                    .padding(.bottom, 20.0)
-                    .padding(.horizontal, 35)
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
                 
-                Link("CodingBytes", destination: URL(string: "https://www.youtube.com/playlist?list=PLKHn9thKcechzvrwmAXKTdz88MFVCBynF ")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 70)
-                    .frame(width: 310.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
-                Text("Review videos of IB Math problems and concepts.")
+                Text("Free quizlet alternative containing")
                     .multilineTextAlignment(.center)
-                    .padding(.bottom, 20.0)
-                    .padding(.horizontal, 35)
+                    .padding(.horizontal, 45)
+                Text("study guides, flashcards, and quizzes.")
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 45)
                 
-                Link("IB English Guys", destination: URL(string: "https://www.youtube.com/@ibenglishguys ")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 70)
-                    .frame(width: 310.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
-                Text("Educational videos covering key topics and exam preparation strategies for IB English.")
-                    .multilineTextAlignment(.center)
-                    .padding(.bottom, 20.0)
-                    .padding(.horizontal, 35)
+                Link(destination: URL(string: "https://ib.bioninja.com.au/")!) {
+                    Text("BioNinja")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 85)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
                 
-                Link("IB History", destination: URL(string: "https://www.youtube.com/playlist?list=PL8ka8pMo8gZXG-06TQiKfbKoO1hqyM-XP ")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 70)
-                    .frame(width: 310.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
-                Text("Instructional videos tailored for IB History, providing comprehensive and concise review videos.")
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
+                Text("Offers free resources for IB Biology.")
                     .multilineTextAlignment(.center)
-                    .padding(.bottom, 20.0)
+                    .padding(.bottom, 5)
+                    .padding(.horizontal, 45)
+                
+                
+                Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLKHn9thKcechzvrwmAXKTdz88MFVCBynF")!) {
+                    Text("CodingBytes")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 60)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
+                Text("Review videos of IB Math problems.")
+                    .multilineTextAlignment(.center)
                     .padding(.horizontal, 35)
+        
+                
+                Link(destination: URL(string: "https://www.youtube.com/@ibenglishguys")!) {
+                    Text("IB English Guys")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 45)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
+                Text("Educational videos covering key topics")
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 45)
+                
+                Text("for IB English.")
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom, 5)
+                    .padding(.horizontal, 45)
+                
+                Link(destination: URL(string: "https://www.youtube.com/playlist?list=PL8ka8pMo8gZXG-06TQiKfbKoO1hqyM-XP")!) {
+                    Text("IB History")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 70)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
+                Text("Instructional videos tailored for IB ")
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 45)
+                
+                Text("History.")
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 45)
+                
                 
             }
             
-            .padding(.top, 30)
+            .padding(.top, 5)
             
             // Bottom Navigation
             

@@ -16,59 +16,94 @@ struct ACT: View {
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color("#003f94ff"))
-                Text("Here are free resources for the ACT. Good luck scholar!")
+                Text("Here are free resources for")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 55)
+                
+                Text("the ACT. Good luck scholar!")
                     .font(.title2)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 55)
             }
     
-            .padding(.top, 100)
+            .padding(.top, 45)
             
             VStack {
-                Link("ACT.org", destination: URL(string: "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/free-act-test-prep.html ")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 70)
-                    .frame(width: 340.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
+                
+                Link(destination: URL(string: "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/free-act-test-prep.html")!) {
+                    Text("ACT.org")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 85)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
                 Text("Full ACT practice tests.")
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 20.0)
                     .padding(.horizontal, 35)
                 
-                Link("Schoolhouse", destination: URL(string: "https://schoolhouse.world/")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 70)
-                    .frame(width: 340.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
-                Text("Free online tutoring in either groups or one-on-one sessions.")
+                
+                Link(destination: URL(string: "https://schoolhouse.world/")!) {
+                    Text("Schoolhouse")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 60)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
+                Text("Free online tutoring in either groups")
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 45)
+                Text("or one-on-one sessions.")
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 20.0)
-                    .padding(.horizontal, 35)
+                    .padding(.horizontal, 45)
                 
-                Link("4Tests", destination: URL(string: "https://www.4tests.com/act-practice-test")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 70)
-                    .frame(width: 340.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
+                Link(destination: URL(string: "https://www.4tests.com/act-practice-test/")!) {
+                    Text("4Tests")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 90)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
                 Text("Take full ACT practice tests.")
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 20.0)
                     .padding(.horizontal, 35)
                 
-                Link("Organic Chemistry Tutor", destination: URL(string: "https://www.youtube.com/@TheOrganicChemistryTutor/search?query=act")!)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 40)
-                    .frame(width: 340.0, height: 45)
-                    .foregroundColor(Color.white)
-                    .background(Color("#003f94ff"))
+                Link(destination: URL(string: "https://www.youtube.com/@TheOrganicChemistryTutor/search?query=act")!) {
+                    Text("Organic Chemistry Tutor")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 0)
+                        .frame(height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
                 Text("ACT math review videos.")
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 35)
