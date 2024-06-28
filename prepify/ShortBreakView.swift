@@ -77,7 +77,7 @@ struct ShortBreakView: View {
                 Spacer().frame(height: 140) // Add a
             }
             
-            
+            .padding(.top, 210)
             
         }
         

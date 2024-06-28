@@ -4,9 +4,7 @@
 //
 //  Created by Scholar on 6/26/24.
 //
-
 import SwiftUI
-
 struct APView: View {
     var body: some View {
         NavigationStack {
@@ -27,7 +25,6 @@ struct APView: View {
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 55)
         
-
             
                 NavigationLink(destination: APCapstoneView()) {
                     Text("AP Capstone Diploma")
@@ -107,29 +104,15 @@ struct APView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(Color("#003f94ff"))
                 
-                NavigationLink(destination: APResourcesView()) {
-                    Text("Additional Resources")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding(.horizontal, 42.5)
-                        .frame(height: 45)
-                        .foregroundColor(Color.white)
-                        .background(Color("#003f94ff"))
-                }
-                
-                .buttonStyle(.borderedProminent)
-                .tint(Color("#003f94ff"))
-                
             }
             
-            .padding(.top, 30)
+            .padding(.top, 50)
             
             // Bottom Navigation
             
             NavigationStack {
                 VStack {
                     Spacer()
-
                     RoundedRectangle(cornerRadius: 20)
                         .fill(Color("#003f94ff"))
                         .frame(height: 90)
@@ -189,7 +172,6 @@ struct APView: View {
                                         }
                                     }
                                 }
-
     struct bottomnavigation: View {
         var body: some View {
             Text("Home View")
@@ -205,3 +187,5 @@ struct APView: View {
 #Preview {
     APView()
 }
+
+
