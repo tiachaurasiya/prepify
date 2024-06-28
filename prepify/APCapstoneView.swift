@@ -9,8 +9,13 @@ import SwiftUI
 
 struct APCapstoneView: View {
     var body: some View {
+        
         NavigationStack {
+            
             VStack {
+                
+                //TITLE
+                
                 Text("AP Capstone")
                     .font(.largeTitle)
                     .fontWeight(.bold)
@@ -24,31 +29,36 @@ struct APCapstoneView: View {
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 45)
 
-                Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLoGgviqq4845Tiot5ihu6Axzh81Po2mOo")!) {
-                    Text("Research")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding(.horizontal, 80)
-                        .frame(height: 45)
-                        .foregroundColor(Color.white)
-                        .background(Color("#003f94ff"))
-                }
-                
-                .buttonStyle(.borderedProminent)
-                .tint(Color("#003f94ff"))
+                //AP SEMINAR
                 
                 NavigationLink(destination: APSeminarView()) {
                     Text("Seminar")
                         .font(.title2)
                         .fontWeight(.bold)
                         .padding(.horizontal, 85)
-                        .frame(height: 45)
+                        .frame(width: 270.0, height: 45)
                         .foregroundColor(Color.white)
                         .background(Color("#003f94ff"))
                 }
                 
                 .buttonStyle(.borderedProminent)
                 .tint(Color("#003f94ff"))
+                
+                //AP RESEARCH
+                
+                NavigationLink(destination: APResearchView()) {
+                    Text("Research")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 85)
+                        .frame(width: 270.0, height: 45)
+                        .foregroundColor(Color.white)
+                        .background(Color("#003f94ff"))
+                }
+                
+                .buttonStyle(.borderedProminent)
+                .tint(Color("#003f94ff"))
+                
             }
             
             .padding(.top, 200)

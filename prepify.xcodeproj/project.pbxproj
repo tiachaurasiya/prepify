@@ -44,6 +44,7 @@
 		BDF372622C2E6EAE0087F796 /* GermanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372612C2E6EAE0087F796 /* GermanView.swift */; };
 		BDF372642C2E6EBA0087F796 /* FrenchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372632C2E6EBA0087F796 /* FrenchView.swift */; };
 		BDF372662C2E6EC70087F796 /* ChineseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372652C2E6EC70087F796 /* ChineseView.swift */; };
+		BDF372682C2E74740087F796 /* APResearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372672C2E74740087F796 /* APResearchView.swift */; };
 		E309F1802C2E3E6700EAB8D7 /* APEngLangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E309F17F2C2E3E6700EAB8D7 /* APEngLangView.swift */; };
 		E309F1822C2E3E7500EAB8D7 /* APEngLitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E309F1812C2E3E7500EAB8D7 /* APEngLitView.swift */; };
 		E338C0082C2DBC5000DF68DB /* APCapstoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C0072C2DBC5000DF68DB /* APCapstoneView.swift */; };
@@ -99,6 +100,7 @@
 		BDF372612C2E6EAE0087F796 /* GermanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanView.swift; sourceTree = "<group>"; };
 		BDF372632C2E6EBA0087F796 /* FrenchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchView.swift; sourceTree = "<group>"; };
 		BDF372652C2E6EC70087F796 /* ChineseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseView.swift; sourceTree = "<group>"; };
+		BDF372672C2E74740087F796 /* APResearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APResearchView.swift; sourceTree = "<group>"; };
 		E309F17F2C2E3E6700EAB8D7 /* APEngLangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APEngLangView.swift; sourceTree = "<group>"; };
 		E309F1812C2E3E7500EAB8D7 /* APEngLitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APEngLitView.swift; sourceTree = "<group>"; };
 		E338C0072C2DBC5000DF68DB /* APCapstoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APCapstoneView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				BDDD63512C2CF20100744A49 /* SAT.swift */,
 				BDF3722C2C2D195F0087F796 /* APView.swift */,
 				E338C0072C2DBC5000DF68DB /* APCapstoneView.swift */,
+				BDF372672C2E74740087F796 /* APResearchView.swift */,
 				E338C0172C2DC3EF00DF68DB /* APSeminarView.swift */,
 				BD31C7A12C2E6B170080AC3F /* AP English Views */,
 				BD31C79E2C2E6A540080AC3F /* AP Math Views */,
@@ -357,6 +360,7 @@
 				E338C0142C2DBCD300DF68DB /* APResourcesView.swift in Sources */,
 				BD31C7972C2E68A40080AC3F /* Physics2View.swift in Sources */,
 				BDDD63522C2CF20100744A49 /* SAT.swift in Sources */,
+				BDF372682C2E74740087F796 /* APResearchView.swift in Sources */,
 				805693522C29F5C60045EF5E /* ContentView.swift in Sources */,
 				BDF372412C2DD7240087F796 /* ShortBreakView.swift in Sources */,
 				BD31C7912C2E680D0080AC3F /* ChemistryView.swift in Sources */,
