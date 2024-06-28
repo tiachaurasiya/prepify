@@ -10,9 +10,9 @@ import SwiftUI
 struct PomodoroView: View {
     var body: some View {
         
-        VStack {
-            Text("")
-        }
+//        VStack {
+//            Text("")
+//        }
         
         // Introduction
         NavigationStack {
@@ -87,7 +87,15 @@ struct PomodoroView: View {
                     .fontWeight(.bold)
 
             }
-               
+            
+            
+            Spacer(minLength: 30)
+            Text("The Pomodoro Technique uses 25-minute work intervals timed by short breaks to boost focus and avoid burnout.")
+                .multilineTextAlignment(.center)
+                .padding(.horizontal, 20.0)
+            
+        
+            
             
             // Bottom Navigation
             
