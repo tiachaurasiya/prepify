@@ -53,7 +53,6 @@
 		E338C00E2C2DBC9900DF68DB /* APMathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C00D2C2DBC9900DF68DB /* APMathView.swift */; };
 		E338C0102C2DBCAA00DF68DB /* APScienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C00F2C2DBCAA00DF68DB /* APScienceView.swift */; };
 		E338C0122C2DBCC400DF68DB /* APWorldLangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C0112C2DBCC400DF68DB /* APWorldLangView.swift */; };
-		E338C0142C2DBCD300DF68DB /* APResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C0132C2DBCD300DF68DB /* APResourcesView.swift */; };
 		E338C0182C2DC3EF00DF68DB /* APSeminarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C0172C2DC3EF00DF68DB /* APSeminarView.swift */; };
 		E3F9A2CE2C2BA2AF00D1A123 /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A2CD2C2BA2AF00D1A123 /* ResourcesView.swift */; };
 		E3F9A2D02C2BA9E700D1A123 /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A2CF2C2BA9E700D1A123 /* PomodoroView.swift */; };
@@ -109,7 +108,6 @@
 		E338C00D2C2DBC9900DF68DB /* APMathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APMathView.swift; sourceTree = "<group>"; };
 		E338C00F2C2DBCAA00DF68DB /* APScienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APScienceView.swift; sourceTree = "<group>"; };
 		E338C0112C2DBCC400DF68DB /* APWorldLangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APWorldLangView.swift; sourceTree = "<group>"; };
-		E338C0132C2DBCD300DF68DB /* APResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APResourcesView.swift; sourceTree = "<group>"; };
 		E338C0172C2DC3EF00DF68DB /* APSeminarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APSeminarView.swift; sourceTree = "<group>"; };
 		E3F9A2CD2C2BA2AF00D1A123 /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResourcesView.swift; path = "Main Pages/ResourcesView.swift"; sourceTree = "<group>"; };
 		E3F9A2CF2C2BA9E700D1A123 /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
@@ -152,27 +150,13 @@
 				805693512C29F5C60045EF5E /* ContentView.swift */,
 				BD31C7A02C2E6AB70080AC3F /* Todo Views */,
 				BD31C79F2C2E6A880080AC3F /* Pomodoro Views */,
-				80931B5A2C2C6EDA00D6979F /* bottomnavigation.swift */,
-				BDF3722A2C2D111D0087F796 /* IBView.swift */,
-				BDDD63532C2D054E00744A49 /* ACT.swift */,
-				BDDD63512C2CF20100744A49 /* SAT.swift */,
-				BDF3722C2C2D195F0087F796 /* APView.swift */,
-				E338C0072C2DBC5000DF68DB /* APCapstoneView.swift */,
-				BDF372672C2E74740087F796 /* APResearchView.swift */,
-				E338C0172C2DC3EF00DF68DB /* APSeminarView.swift */,
+				E3CE327C2C2EDED200CA7D3A /* Resources View */,
+				E3CE32812C2EE02200CA7D3A /* AP Capstone Views */,
 				BD31C7A12C2E6B170080AC3F /* AP English Views */,
+				E3CE327F2C2EE00900CA7D3A /* AP History Views */,
 				BD31C79E2C2E6A540080AC3F /* AP Math Views */,
 				BD31C79C2C2E69CF0080AC3F /* AP Science Views */,
-				E338C0112C2DBCC400DF68DB /* APWorldLangView.swift */,
-				BDF372652C2E6EC70087F796 /* ChineseView.swift */,
-				BDF372632C2E6EBA0087F796 /* FrenchView.swift */,
-				BDF372612C2E6EAE0087F796 /* GermanView.swift */,
-				BDF3725F2C2E6EA10087F796 /* ItalianView.swift */,
-				BDF3725D2C2E6E920087F796 /* JapaneseView.swift */,
-				BDF3725B2C2E6E850087F796 /* LatinView.swift */,
-				BDF372592C2E6E720087F796 /* SpanishLangView.swift */,
-				BDF372572C2E6E5F0087F796 /* SpanishLitView.swift */,
-				E338C0132C2DBCD300DF68DB /* APResourcesView.swift */,
+				E3CE327B2C2EDE9D00CA7D3A /* AP Language Views */,
 				BDC1D7ED2C2A6CAC004B2434 /* Main Pages */,
 				805693532C29F5C90045EF5E /* Assets.xcassets */,
 				805693552C29F5C90045EF5E /* Preview Content */,
@@ -191,7 +175,6 @@
 		BD31C79C2C2E69CF0080AC3F /* AP Science Views */ = {
 			isa = PBXGroup;
 			children = (
-				E338C00B2C2DBC8700DF68DB /* APHistoryView.swift */,
 				BD31C7942C2E688F0080AC3F /* Physics1View.swift */,
 				BD31C7922C2E683C0080AC3F /* EnvironmentalSciView.swift */,
 				BD31C7962C2E68A40080AC3F /* Physics2View.swift */,
@@ -233,6 +216,7 @@
 		BD31C7A02C2E6AB70080AC3F /* Todo Views */ = {
 			isa = PBXGroup;
 			children = (
+				80931B5A2C2C6EDA00D6979F /* bottomnavigation.swift */,
 				80931B682C2D079600D6979F /* NewToDoView.swift */,
 				E3F9A2D32C2BAA8000D1A123 /* ToDoView.swift */,
 				80931B662C2D077E00D6979F /* ToDoItem.swift */,
@@ -256,6 +240,51 @@
 				BDC1D7EE2C2A6CC8004B2434 /* Resources.swift */,
 			);
 			path = "Main Pages";
+			sourceTree = "<group>";
+		};
+		E3CE327B2C2EDE9D00CA7D3A /* AP Language Views */ = {
+			isa = PBXGroup;
+			children = (
+				E338C0112C2DBCC400DF68DB /* APWorldLangView.swift */,
+				BDF372632C2E6EBA0087F796 /* FrenchView.swift */,
+				BDF3725F2C2E6EA10087F796 /* ItalianView.swift */,
+				BDF372652C2E6EC70087F796 /* ChineseView.swift */,
+				BDF3725D2C2E6E920087F796 /* JapaneseView.swift */,
+				BDF372592C2E6E720087F796 /* SpanishLangView.swift */,
+				BDF3725B2C2E6E850087F796 /* LatinView.swift */,
+				BDF372572C2E6E5F0087F796 /* SpanishLitView.swift */,
+				BDF372612C2E6EAE0087F796 /* GermanView.swift */,
+			);
+			path = "AP Language Views";
+			sourceTree = "<group>";
+		};
+		E3CE327C2C2EDED200CA7D3A /* Resources View */ = {
+			isa = PBXGroup;
+			children = (
+				BDDD63512C2CF20100744A49 /* SAT.swift */,
+				BDDD63532C2D054E00744A49 /* ACT.swift */,
+				BDF3722C2C2D195F0087F796 /* APView.swift */,
+				BDF3722A2C2D111D0087F796 /* IBView.swift */,
+			);
+			path = "Resources View";
+			sourceTree = "<group>";
+		};
+		E3CE327F2C2EE00900CA7D3A /* AP History Views */ = {
+			isa = PBXGroup;
+			children = (
+				E338C00B2C2DBC8700DF68DB /* APHistoryView.swift */,
+			);
+			path = "AP History Views";
+			sourceTree = "<group>";
+		};
+		E3CE32812C2EE02200CA7D3A /* AP Capstone Views */ = {
+			isa = PBXGroup;
+			children = (
+				E338C0072C2DBC5000DF68DB /* APCapstoneView.swift */,
+				E338C0172C2DC3EF00DF68DB /* APSeminarView.swift */,
+				BDF372672C2E74740087F796 /* APResearchView.swift */,
+			);
+			path = "AP Capstone Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,7 +386,6 @@
 				E338C0122C2DBCC400DF68DB /* APWorldLangView.swift in Sources */,
 				BD31C7952C2E688F0080AC3F /* Physics1View.swift in Sources */,
 				BDF372642C2E6EBA0087F796 /* FrenchView.swift in Sources */,
-				E338C0142C2DBCD300DF68DB /* APResourcesView.swift in Sources */,
 				BD31C7972C2E68A40080AC3F /* Physics2View.swift in Sources */,
 				BDDD63522C2CF20100744A49 /* SAT.swift in Sources */,
 				BDF372682C2E74740087F796 /* APResearchView.swift in Sources */,
