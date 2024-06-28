@@ -36,6 +36,14 @@
 		BDF3722D2C2D195F0087F796 /* APView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3722C2C2D195F0087F796 /* APView.swift */; };
 		BDF372412C2DD7240087F796 /* ShortBreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372402C2DD7240087F796 /* ShortBreakView.swift */; };
 		BDF372432C2DDDC70087F796 /* LongBreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372422C2DDDC70087F796 /* LongBreakView.swift */; };
+		BDF372582C2E6E600087F796 /* SpanishLitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372572C2E6E5F0087F796 /* SpanishLitView.swift */; };
+		BDF3725A2C2E6E720087F796 /* SpanishLangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372592C2E6E720087F796 /* SpanishLangView.swift */; };
+		BDF3725C2C2E6E850087F796 /* LatinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3725B2C2E6E850087F796 /* LatinView.swift */; };
+		BDF3725E2C2E6E920087F796 /* JapaneseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3725D2C2E6E920087F796 /* JapaneseView.swift */; };
+		BDF372602C2E6EA10087F796 /* ItalianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3725F2C2E6EA10087F796 /* ItalianView.swift */; };
+		BDF372622C2E6EAE0087F796 /* GermanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372612C2E6EAE0087F796 /* GermanView.swift */; };
+		BDF372642C2E6EBA0087F796 /* FrenchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372632C2E6EBA0087F796 /* FrenchView.swift */; };
+		BDF372662C2E6EC70087F796 /* ChineseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF372652C2E6EC70087F796 /* ChineseView.swift */; };
 		E309F1802C2E3E6700EAB8D7 /* APEngLangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E309F17F2C2E3E6700EAB8D7 /* APEngLangView.swift */; };
 		E309F1822C2E3E7500EAB8D7 /* APEngLitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E309F1812C2E3E7500EAB8D7 /* APEngLitView.swift */; };
 		E338C0082C2DBC5000DF68DB /* APCapstoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338C0072C2DBC5000DF68DB /* APCapstoneView.swift */; };
@@ -83,6 +91,14 @@
 		BDF3722C2C2D195F0087F796 /* APView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APView.swift; sourceTree = "<group>"; };
 		BDF372402C2DD7240087F796 /* ShortBreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortBreakView.swift; sourceTree = "<group>"; };
 		BDF372422C2DDDC70087F796 /* LongBreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongBreakView.swift; sourceTree = "<group>"; };
+		BDF372572C2E6E5F0087F796 /* SpanishLitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishLitView.swift; sourceTree = "<group>"; };
+		BDF372592C2E6E720087F796 /* SpanishLangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishLangView.swift; sourceTree = "<group>"; };
+		BDF3725B2C2E6E850087F796 /* LatinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatinView.swift; sourceTree = "<group>"; };
+		BDF3725D2C2E6E920087F796 /* JapaneseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapaneseView.swift; sourceTree = "<group>"; };
+		BDF3725F2C2E6EA10087F796 /* ItalianView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItalianView.swift; sourceTree = "<group>"; };
+		BDF372612C2E6EAE0087F796 /* GermanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanView.swift; sourceTree = "<group>"; };
+		BDF372632C2E6EBA0087F796 /* FrenchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchView.swift; sourceTree = "<group>"; };
+		BDF372652C2E6EC70087F796 /* ChineseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseView.swift; sourceTree = "<group>"; };
 		E309F17F2C2E3E6700EAB8D7 /* APEngLangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APEngLangView.swift; sourceTree = "<group>"; };
 		E309F1812C2E3E7500EAB8D7 /* APEngLitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APEngLitView.swift; sourceTree = "<group>"; };
 		E338C0072C2DBC5000DF68DB /* APCapstoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APCapstoneView.swift; sourceTree = "<group>"; };
@@ -166,6 +182,14 @@
 				E338C00F2C2DBCAA00DF68DB /* APScienceView.swift */,
 				BD31C79A2C2E69430080AC3F /* PhysicsCView.swift */,
 				E338C0112C2DBCC400DF68DB /* APWorldLangView.swift */,
+				BDF372652C2E6EC70087F796 /* ChineseView.swift */,
+				BDF372632C2E6EBA0087F796 /* FrenchView.swift */,
+				BDF372612C2E6EAE0087F796 /* GermanView.swift */,
+				BDF3725F2C2E6EA10087F796 /* ItalianView.swift */,
+				BDF3725D2C2E6E920087F796 /* JapaneseView.swift */,
+				BDF3725B2C2E6E850087F796 /* LatinView.swift */,
+				BDF372592C2E6E720087F796 /* SpanishLangView.swift */,
+				BDF372572C2E6E5F0087F796 /* SpanishLitView.swift */,
 				E338C0132C2DBCD300DF68DB /* APResourcesView.swift */,
 				BDDD63532C2D054E00744A49 /* ACT.swift */,
 				BDC1D7ED2C2A6CAC004B2434 /* Main Pages */,
@@ -261,8 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF3725C2C2E6E850087F796 /* LatinView.swift in Sources */,
 				E309F1822C2E3E7500EAB8D7 /* APEngLitView.swift in Sources */,
 				BD31C7932C2E683C0080AC3F /* EnvironmentalSciView.swift in Sources */,
+				BDF372582C2E6E600087F796 /* SpanishLitView.swift in Sources */,
 				E338C0102C2DBCAA00DF68DB /* APScienceView.swift in Sources */,
 				80931B692C2D079600D6979F /* NewToDoView.swift in Sources */,
 				BDF3722B2C2D111D0087F796 /* IBView.swift in Sources */,
@@ -270,13 +296,16 @@
 				80931B5B2C2C6EDA00D6979F /* bottomnavigation.swift in Sources */,
 				BDF3722D2C2D195F0087F796 /* APView.swift in Sources */,
 				E3F9A2D02C2BA9E700D1A123 /* PomodoroView.swift in Sources */,
+				BDF372602C2E6EA10087F796 /* ItalianView.swift in Sources */,
 				802E0DF22C2DE97500255B56 /* StatisticsView.swift in Sources */,
 				803583412C2DAD520059867E /* PomodoroViewModel.swift in Sources */,
+				BDF372622C2E6EAE0087F796 /* GermanView.swift in Sources */,
 				802E0DF42C2DE99900255B56 /* PrecalculusView.swift in Sources */,
 				80931B672C2D077E00D6979F /* ToDoItem.swift in Sources */,
 				BD31C78F2C2E67E60080AC3F /* BiologyView.swift in Sources */,
 				BD31C79B2C2E69430080AC3F /* PhysicsCView.swift in Sources */,
 				802E0DEE2C2DE95500255B56 /* CompSciPrinciplesView.swift in Sources */,
+				BDF3725A2C2E6E720087F796 /* SpanishLangView.swift in Sources */,
 				802E0DEA2C2DE8F000255B56 /* CalculusBCView.swift in Sources */,
 				E3F9A2CE2C2BA2AF00D1A123 /* ResourcesView.swift in Sources */,
 				E338C00E2C2DBC9900DF68DB /* APMathView.swift in Sources */,
@@ -284,6 +313,7 @@
 				BDF372432C2DDDC70087F796 /* LongBreakView.swift in Sources */,
 				E338C0122C2DBCC400DF68DB /* APWorldLangView.swift in Sources */,
 				BD31C7952C2E688F0080AC3F /* Physics1View.swift in Sources */,
+				BDF372642C2E6EBA0087F796 /* FrenchView.swift in Sources */,
 				E338C0142C2DBCD300DF68DB /* APResourcesView.swift in Sources */,
 				BD31C7972C2E68A40080AC3F /* Physics2View.swift in Sources */,
 				BDDD63522C2CF20100744A49 /* SAT.swift in Sources */,
@@ -293,6 +323,7 @@
 				E309F1802C2E3E6700EAB8D7 /* APEngLangView.swift in Sources */,
 				8035833F2C2DA7C80059867E /* PomodoroWorkTimerView.swift in Sources */,
 				E3F9A2D42C2BAA8000D1A123 /* ToDoView.swift in Sources */,
+				BDF372662C2E6EC70087F796 /* ChineseView.swift in Sources */,
 				BD31C7992C2E68D10080AC3F /* PhysicsEMView.swift in Sources */,
 				BDDD63542C2D054E00744A49 /* ACT.swift in Sources */,
 				E338C00C2C2DBC8700DF68DB /* APHistoryView.swift in Sources */,
@@ -301,6 +332,7 @@
 				802E0DE82C2DE8C500255B56 /* CalculusABView.swift in Sources */,
 				E338C0082C2DBC5000DF68DB /* APCapstoneView.swift in Sources */,
 				805693502C29F5C60045EF5E /* prepifyApp.swift in Sources */,
+				BDF3725E2C2E6E920087F796 /* JapaneseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
