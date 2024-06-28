@@ -129,45 +129,23 @@
 			isa = PBXGroup;
 			children = (
 				BDDD634E2C2CF06900744A49 /* Info.plist */,
-				8035833E2C2DA7C70059867E /* PomodoroWorkTimerView.swift */,
-				802E0DF12C2DE97500255B56 /* StatisticsView.swift */,
 				8056934F2C29F5C60045EF5E /* prepifyApp.swift */,
 				E3F9A2CD2C2BA2AF00D1A123 /* ResourcesView.swift */,
-				E3F9A2D32C2BAA8000D1A123 /* ToDoView.swift */,
-				803583402C2DAD520059867E /* PomodoroViewModel.swift */,
-				80931B662C2D077E00D6979F /* ToDoItem.swift */,
-				80931B682C2D079600D6979F /* NewToDoView.swift */,
 				805693512C29F5C60045EF5E /* ContentView.swift */,
-				BDF3722A2C2D111D0087F796 /* IBView.swift */,
+				BD31C7A02C2E6AB70080AC3F /* Todo Views */,
+				BD31C79F2C2E6A880080AC3F /* Pomodoro Views */,
 				80931B5A2C2C6EDA00D6979F /* bottomnavigation.swift */,
-				E3F9A2CF2C2BA9E700D1A123 /* PomodoroView.swift */,
-				BDF372402C2DD7240087F796 /* ShortBreakView.swift */,
-				BDF372422C2DDDC70087F796 /* LongBreakView.swift */,
+				BDF3722A2C2D111D0087F796 /* IBView.swift */,
+				BDDD63532C2D054E00744A49 /* ACT.swift */,
 				BDDD63512C2CF20100744A49 /* SAT.swift */,
 				BDF3722C2C2D195F0087F796 /* APView.swift */,
 				E338C0072C2DBC5000DF68DB /* APCapstoneView.swift */,
 				E338C0172C2DC3EF00DF68DB /* APSeminarView.swift */,
-				E338C0092C2DBC7400DF68DB /* APEnglishView.swift */,
-				E309F17F2C2E3E6700EAB8D7 /* APEngLangView.swift */,
-				E309F1812C2E3E7500EAB8D7 /* APEngLitView.swift */,
-				BD31C7922C2E683C0080AC3F /* EnvironmentalSciView.swift */,
-				BD31C7942C2E688F0080AC3F /* Physics1View.swift */,
-				BD31C7962C2E68A40080AC3F /* Physics2View.swift */,
-				E338C00B2C2DBC8700DF68DB /* APHistoryView.swift */,
-				E338C00D2C2DBC9900DF68DB /* APMathView.swift */,
-				BD31C7982C2E68D10080AC3F /* PhysicsEMView.swift */,
-				BD31C78E2C2E67E60080AC3F /* BiologyView.swift */,
-				802E0DF32C2DE99900255B56 /* PrecalculusView.swift */,
-				802E0DEB2C2DE94900255B56 /* CompSciAView.swift */,
-				802E0DED2C2DE95500255B56 /* CompSciPrinciplesView.swift */,
-				BD31C7902C2E680D0080AC3F /* ChemistryView.swift */,
-				802E0DE72C2DE8C500255B56 /* CalculusABView.swift */,
-				802E0DE92C2DE8F000255B56 /* CalculusBCView.swift */,
-				E338C00F2C2DBCAA00DF68DB /* APScienceView.swift */,
-				BD31C79A2C2E69430080AC3F /* PhysicsCView.swift */,
+				BD31C7A12C2E6B170080AC3F /* AP English Views */,
+				BD31C79E2C2E6A540080AC3F /* AP Math Views */,
+				BD31C79C2C2E69CF0080AC3F /* AP Science Views */,
 				E338C0112C2DBCC400DF68DB /* APWorldLangView.swift */,
 				E338C0132C2DBCD300DF68DB /* APResourcesView.swift */,
-				BDDD63532C2D054E00744A49 /* ACT.swift */,
 				BDC1D7ED2C2A6CAC004B2434 /* Main Pages */,
 				805693532C29F5C90045EF5E /* Assets.xcassets */,
 				805693552C29F5C90045EF5E /* Preview Content */,
@@ -181,6 +159,68 @@
 				805693562C29F5C90045EF5E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD31C79C2C2E69CF0080AC3F /* AP Science Views */ = {
+			isa = PBXGroup;
+			children = (
+				E338C00B2C2DBC8700DF68DB /* APHistoryView.swift */,
+				BD31C7942C2E688F0080AC3F /* Physics1View.swift */,
+				BD31C7922C2E683C0080AC3F /* EnvironmentalSciView.swift */,
+				BD31C7962C2E68A40080AC3F /* Physics2View.swift */,
+				BD31C7982C2E68D10080AC3F /* PhysicsEMView.swift */,
+				BD31C78E2C2E67E60080AC3F /* BiologyView.swift */,
+				BD31C7902C2E680D0080AC3F /* ChemistryView.swift */,
+				BD31C79A2C2E69430080AC3F /* PhysicsCView.swift */,
+				E338C00F2C2DBCAA00DF68DB /* APScienceView.swift */,
+			);
+			path = "AP Science Views";
+			sourceTree = "<group>";
+		};
+		BD31C79E2C2E6A540080AC3F /* AP Math Views */ = {
+			isa = PBXGroup;
+			children = (
+				802E0DF12C2DE97500255B56 /* StatisticsView.swift */,
+				802E0DED2C2DE95500255B56 /* CompSciPrinciplesView.swift */,
+				802E0DE92C2DE8F000255B56 /* CalculusBCView.swift */,
+				802E0DF32C2DE99900255B56 /* PrecalculusView.swift */,
+				802E0DE72C2DE8C500255B56 /* CalculusABView.swift */,
+				802E0DEB2C2DE94900255B56 /* CompSciAView.swift */,
+				E338C00D2C2DBC9900DF68DB /* APMathView.swift */,
+			);
+			path = "AP Math Views";
+			sourceTree = "<group>";
+		};
+		BD31C79F2C2E6A880080AC3F /* Pomodoro Views */ = {
+			isa = PBXGroup;
+			children = (
+				803583402C2DAD520059867E /* PomodoroViewModel.swift */,
+				8035833E2C2DA7C70059867E /* PomodoroWorkTimerView.swift */,
+				BDF372402C2DD7240087F796 /* ShortBreakView.swift */,
+				BDF372422C2DDDC70087F796 /* LongBreakView.swift */,
+				E3F9A2CF2C2BA9E700D1A123 /* PomodoroView.swift */,
+			);
+			path = "Pomodoro Views";
+			sourceTree = "<group>";
+		};
+		BD31C7A02C2E6AB70080AC3F /* Todo Views */ = {
+			isa = PBXGroup;
+			children = (
+				80931B682C2D079600D6979F /* NewToDoView.swift */,
+				E3F9A2D32C2BAA8000D1A123 /* ToDoView.swift */,
+				80931B662C2D077E00D6979F /* ToDoItem.swift */,
+			);
+			path = "Todo Views";
+			sourceTree = "<group>";
+		};
+		BD31C7A12C2E6B170080AC3F /* AP English Views */ = {
+			isa = PBXGroup;
+			children = (
+				E338C0092C2DBC7400DF68DB /* APEnglishView.swift */,
+				E309F1812C2E3E7500EAB8D7 /* APEngLitView.swift */,
+				E309F17F2C2E3E6700EAB8D7 /* APEngLangView.swift */,
+			);
+			path = "AP English Views";
 			sourceTree = "<group>";
 		};
 		BDC1D7ED2C2A6CAC004B2434 /* Main Pages */ = {

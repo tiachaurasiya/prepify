@@ -104,7 +104,7 @@ struct APScienceView: View {
                     Text("Physics C")
                         .font(.title2)
                         .fontWeight(.bold)
-                        .padding(.horizontal, 100)
+                        .padding(.horizontal, 90)
                         .frame(height: 45)
                         .foregroundColor(Color.white)
                         .background(Color("#003f94ff"))

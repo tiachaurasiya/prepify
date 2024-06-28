@@ -34,6 +34,8 @@ struct SAT: View {
                     .frame(width: 310.0, height: 45)
                     .foregroundColor(Color.white)
                     .background(Color("#003f94ff"))
+                
+                
                 Text("Interactive prep including videos, practice questions, lessons, and full practice tests.")
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 20.0)
