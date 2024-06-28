@@ -25,7 +25,7 @@ struct GermanView: View {
                 
                 //Knowt
                 
-                Link(destination: URL(string: "https://docs.google.com/document/d/1EDJ-fAzLmxKreeMn4hFfrdzSeLSfw4Sye1eSD0N3jWw/edit?pli=1#heading=h.2iozmvk7y6d7")!) {
+                Link(destination: URL(string: "https://knowt.com/exams/AP/AP-German-Language-and-Culture")!) {
                     Text("Knowt")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -40,7 +40,7 @@ struct GermanView: View {
                 
                 //Fiveable
                 
-                Link(destination: URL(string: "https://apresources.notion.site/AP-Seminar-378d59f8ee2e45fe8624ad45d92432b1")!) {
+                Link(destination: URL(string: "https://library.fiveable.me/ap-german")!) {
                     Text("Fiveable")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -55,7 +55,7 @@ struct GermanView: View {
                 
                 //AP Daily
                 
-                Link(destination: URL(string: "https://knowt.com/exams/AP/AP-Seminar")!) {
+                Link(destination: URL(string: "https://www.youtube.com/watch?v=h25YEc7Rfok&list=PLoGgviqq4844xCVbFUawcSsJ_iOJ_3Cvt&pp=iAQB")!) {
                     Text("AP Daily")
                         .font(.title2)
                         .fontWeight(.bold)

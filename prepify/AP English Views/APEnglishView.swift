@@ -21,7 +21,7 @@ struct APEnglishView: View {
                         .font(.title2)
                         .fontWeight(.bold)
                         .padding(.horizontal, 20)
-                        .frame(height: 45)
+                        .frame(width: 300.0, height: 45)
                         .foregroundColor(Color.white)
                         .background(Color("#003f94ff"))
                 }
@@ -34,7 +34,7 @@ struct APEnglishView: View {
                         .font(.title2)
                         .fontWeight(.bold)
                         .padding(.horizontal, 32.5)
-                        .frame(height: 45)
+                        .frame(width: 300.0, height: 45)
                         .foregroundColor(Color.white)
                         .background(Color("#003f94ff"))
                 }

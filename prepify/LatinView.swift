@@ -25,7 +25,7 @@ struct LatinView: View {
                 
                 //Knowt
                 
-                Link(destination: URL(string: "https://docs.google.com/document/d/1EDJ-fAzLmxKreeMn4hFfrdzSeLSfw4Sye1eSD0N3jWw/edit?pli=1#heading=h.2iozmvk7y6d7")!) {
+                Link(destination: URL(string: "https://knowt.com/exams/AP/AP-Latin")!) {
                     Text("Knowt")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -40,7 +40,7 @@ struct LatinView: View {
                 
                 //Fiveable
                 
-                Link(destination: URL(string: "https://apresources.notion.site/AP-Seminar-378d59f8ee2e45fe8624ad45d92432b1")!) {
+                Link(destination: URL(string: "https://library.fiveable.me/ap-latin")!) {
                     Text("Fiveable")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -55,7 +55,7 @@ struct LatinView: View {
                 
                 //AP Daily
                 
-                Link(destination: URL(string: "https://knowt.com/exams/AP/AP-Seminar")!) {
+                Link(destination: URL(string: "https://www.youtube.com/watch?v=uNFE4nA_pZ4&list=PLoGgviqq48459FanuiZNHWzyvs8AfIEre&pp=iAQB")!) {
                     Text("AP Daily")
                         .font(.title2)
                         .fontWeight(.bold)
